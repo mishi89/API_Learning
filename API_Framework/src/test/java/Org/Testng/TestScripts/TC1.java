@@ -28,7 +28,7 @@ public class TC1 {
 	System.out.println(res.statusCode());
 	System.out.println(res.asString());
 	id = ResponseExtraction.baseuponextractionclass(res, "id");
-	System.out.println(id);
+	System.out.println("Print id" + id);
 	}
 
 }
